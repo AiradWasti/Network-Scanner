@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This Bash script is designed to manage firewall rules using either iptables or UFW, providing functionality to add or remove rules based on user input. The script first checks if it is run with root privileges. It then prompts the user to select between iptables and UFW for managing firewall rules, followed by a choice to either add or remove a rule. The user is then asked to provide the IP address, port, protocol (TCP/UDP), and action (allow/deny). Based on these inputs, the script executes the corresponding function to update the firewall rules accordingly, ensuring the system's network security configurations are appropriately managed.
+This Bash script is a network scanner that uses nmap to identify and provide details about active devices within a specified network range. It begins by checking if nmap is installed, prompting the user to install it if not found. The script then validates the provided network range and displays usage instructions if the input is incorrect or missing. Upon validation, it conducts an initial nmap scan to identify active devices within the network range. The script extracts and lists the IP addresses of these active devices and performs a more detailed version scan on each one in parallel. The results offer insights into the services and versions running on the active devices, enhancing network visibility and security assessment capabilities.
 <br />
 
 
